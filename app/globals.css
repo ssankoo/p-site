@@ -1,18 +1,18 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-style: "JetBrains Mono" ;
+
+}
+
 html, body{
-  font-family: "VT323";
   scroll-behavior: smooth;
   color: white;
   background-color: black;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
